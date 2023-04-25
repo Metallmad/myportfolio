@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -347,12 +348,12 @@
         <div class="qualification__container container">
           <div class="qualification__tabs">
             
-            <div class="qualification__button button--flex" >
+            <div class="qualification__button button--flex qualification__active" data-target="#education" >
               <i class="uil uil-graduation-cap qualification__icon"></i>
               Education
             </div>
 
-            <div class="qualification__button button--flex">
+            <div class="qualification__button button--flex" data-target="#work">
               <i class="uil uil-briefcase-alt qualification__icon"></i>
               Work
             </div>
@@ -360,7 +361,7 @@
 
           <div class="qualification sections">
             <!-- qly content 1 -->
-            <div class="qualification__content qualification__active" data-content id="education">
+            <div class="qualification__content qualification__active" data-content="true" id="education">
               <!-- qly 1 -->
               <div class="qualification__data">
                 <div>
@@ -428,7 +429,7 @@
 
             <!-- qly content 2 -->
           
-            <div class="qualification__content" data-content id="work">
+            <div class="qualification__content" data-content="false" id="work">
               <!-- qly 1 -->
               <div class="qualification__data">
                 <div>
@@ -497,6 +498,7 @@
         </div>
       </section>
 
+      <!--  -->
     </main>
 
     <footer></footer>
