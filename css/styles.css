@@ -489,13 +489,7 @@ img{
 
 .qualification__tabs{
     display: flex;
-    justify-content: center;
-    margin-bottom: var(--mb-2);
-}
-
-#work__icon{
-    display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: var(--mb-2);
 }
 
@@ -552,11 +546,10 @@ img{
     transform: translate(6px, -7px);
 }
 
-/* .qualification [data-content]{
-    display: block;
+.qualification [data-content]{
+    display: none;
 }
 
-.qualification__show [data-content]{
-    display: none;
-} */
-
+.qualification__active [data-content]{
+    display: block;
+}
