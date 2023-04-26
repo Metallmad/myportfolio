@@ -554,6 +554,6 @@ img{
     display: block;
 }
 
-.qualification__button .qualification__active{
+.qualification__button.qualification__active{
     color: var(--first-color);
 }
