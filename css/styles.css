@@ -675,7 +675,7 @@ img{
 /* Portfolio section */
 
 .portfolio__container{
-    overflow: inherit;
+    overflow: initial;
 }
 
 .portfolio__content{
@@ -685,7 +685,7 @@ img{
 .portfolio__img{
     width: 265px;
     border-radius: .5rem;
-    justify-content: center;
+    justify-self: center;
 }
 
 .portfolio__title{
